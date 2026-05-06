@@ -24,7 +24,7 @@ public class Problem1 {
             set.add(ch);
             currentSum += (ch - 'a' + 1);
 
-            // Ensure substring length does not exceed original length
+          
             while (right - left + 1 > n) {
                 char leftChar = doubled.charAt(left);
                 currentSum -= (leftChar - 'a' + 1);
